@@ -1,13 +1,11 @@
-
 import './App.css';
+import Navigation from './components/Nav';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <h1>
-        Pickles
-       </h1>
+        <Navigation />
       </header>
     </div>
   );
