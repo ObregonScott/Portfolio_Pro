@@ -1,5 +1,9 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import {NavBar, Container} from "react-bootstrap";
+import { GrProjects } from "react-icons/gr";
+
+import logo from '../Assets/img/';
 
 export const NavBar = () => {
 

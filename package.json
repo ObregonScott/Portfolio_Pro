@@ -1,6 +1,27 @@
 {
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "bootstrap": "^5.1.3",
-    "react-bootstrap": "^2.4.0"
-  }
+    "react-bootstrap": "^2.4.0",
+    "react-icons": "^4.4.0"
+  },
+  "name": "portfolio_pro",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ObregonScott/Portfolio_Pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ObregonScott/Portfolio_Pro/issues"
+  },
+  "homepage": "https://github.com/ObregonScott/Portfolio_Pro#readme"
 }
