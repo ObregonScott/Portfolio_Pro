@@ -18,11 +18,11 @@ const Home = () => {
           <p className='text-white py-4 max-w-md'>I am a Austin, Texas based Engineering Student
             with a background in welding and metal fabrication.
             Currently I am pursuing a career in Web Development and Software Design through The University of Texas.</p>
-          <button className='text-white w-fit border-2 rounded-2xl px-6 py-3 my-2 flex items-center
-          bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer group'>
-            View Work
+          <button className='text-white w-fit rounded-2xl px-6 py-3 my-2 flex items-center
+          bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer group font-semibold'>
+            Portfolio
             <span className='group-hover:rotate-90 duration-300'>
-              <IoIosArrowForward size={20} className='ml-1'/>
+              <IoIosArrowForward size={15} className='ml-1'/>
             </span>
           </button>
         </div>
