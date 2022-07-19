@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { GoMail } from "react-icons/go";
+import { FaBars, FaTimes} from 'react-icons/fa';
+
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/vulture.png';
 

@@ -9,7 +9,7 @@ const Social = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <BsLinkedin size={30} className=' group-hover:text-blue-600 group-hover:bg-white rounded-md '/>
+          LinkedIn <BsLinkedin size={30} className='text-white group-hover:text-blue-600 group-hover:bg-white rounded-md duration-500'/>
         </>
       ),
       href: "www.linkedin.com/in/scott-obregon",
@@ -19,7 +19,7 @@ const Social = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} className='bg-black text-white group-hover:text-yellow-400 rounded-full' />
+          GitHub <FaGithub size={30} className='bg-black text-white group-hover:text-yellow-400 rounded-full duration-500' />
         </>
       ),
       href: "https://github.com/ObregonScott",
@@ -28,7 +28,7 @@ const Social = () => {
       id: 3,
       child: (
         <>
-          Mail <GoMail size={30} className='text-pink-500 group-hover:text-red-600'/>
+          Mail <GoMail size={30} className='text-white group-hover:text-red-600 duration-500'/>
         </>
       ),
       href: "mailto:obregon.scott@gmail.com",
@@ -37,7 +37,7 @@ const Social = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} className='text-orange-500'/>
+          Resume <BsFillPersonLinesFill size={30} className='text-white group-hover:text-black duration-500'/>
         </>
       ),
       href: "/BBKING.JPG",
