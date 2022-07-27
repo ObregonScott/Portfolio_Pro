@@ -6,7 +6,7 @@ const About = () => {
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
-            <p classname='text-4xl font-bold inline border-b-4 border-gray-300'>
+            <p className='text-5xl font-bold inline border-b-4 border-white'>
               About
             </p>
           </div>
@@ -14,14 +14,15 @@ const About = () => {
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right text-4xl font-bold'>
-            <p>Hi. I'm Scott, nice to meet you. Please take a alook around.</p>
+            <p>Hi! I'm Scott, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p>
-            I have been playing Classical/Flamenco guitar for 25+ years, 
-            and have been teaching guitar for 10 years. Aside from music, I spent a number of 
-            years working on Pre-1972 Hot Rods and Motorcyles around the U.S. I hope to use my web development 
-            and Engineering skills in the automotive industry, developing front end user software in electric vehicles.
+            <p className='text-white'>
+              My greatest passions in life have been Music and Hotrods. I have been playing Classical/Flamenco guitar for 25+ years,
+              and have been teaching guitar for 10 years. Currently I am seasonaly touring the United States with band Government Whiskey and have worked in
+              various studios in central Texas as a session musician. Aside from music, I spent a number of
+              years working on Pre-1972 Hot Rods and Motorcyles as a welder and metal fabricator. I hope to use my Web Development
+              and Engineering skills in the automotive industry, developing front end user software in electric vehicles.
             </p>
           </div>
         </div>
