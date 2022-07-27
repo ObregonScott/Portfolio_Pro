@@ -1,8 +1,8 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { FaBars, FaTimes} from 'react-icons/fa';
 
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/vulture.png';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4  bg-black  text-gray-200'>
             <div>
-                <img src={Logo} alt="Logo Image" style={{ height: '190px' }} />
+                <img src={Logo} alt="" style={{ height: '190px' }} />
             </div>
 
             {/*Menu*/}
