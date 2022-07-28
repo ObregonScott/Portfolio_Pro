@@ -1,3 +1,4 @@
+// Imports
 import React from 'react'
 import MRU from '../assets/MRUscreen.png';
 import Crescendo from '../assets/crescendoSS.png';
@@ -11,10 +12,10 @@ import Weather from '../assets/weatherDash.png';
 
 const Projects = () => {
     return (
-        <div name='projects' className='w-full md:h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-start w-full h-full'>
-                <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 text-white border-white'>Projects</p>
+        <div name='projects' className='w-full md:h-screen bg-gradient-to-b from-teal-600 via-sky-600 to-blue-600 text-white'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+                <div className='pb-7'>
+                    <p className='text-5xl text-white font-bold inline border-b-4 border-amber-400'>Projects</p>
                     <p className='py-6'>Check Out Some Of My Recent Work</p>
                 </div>
 
