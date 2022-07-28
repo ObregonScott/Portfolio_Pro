@@ -32,10 +32,10 @@ const Projects = () => {
                                 Crecendo Music App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://obscure-brook-13370.herokuapp.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/laynewegenast/proj-2-music-site">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
 
@@ -50,13 +50,13 @@ const Projects = () => {
                         {/* Hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Crecendo Music App
+                                Password App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://obregonscott.github.io/PasswordGenerator/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/ObregonScott/PasswordGenerator">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
 
@@ -71,13 +71,13 @@ const Projects = () => {
                         {/* Hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Crecendo Music App
+                                Movies-R-Us App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://truppeiner.github.io/Movies-R-Us/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/truppeiner/Movies-R-Us">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
 
@@ -92,13 +92,13 @@ const Projects = () => {
                         {/* Hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Crecendo Music App
+                                Note Taker App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://note-taker-cms11.herokuapp.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/ObregonScott/Note-Taker">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
 
@@ -113,13 +113,13 @@ const Projects = () => {
                         {/* Hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Crecendo Music App
+                                Music Networking App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://musicology-umekev.herokuapp.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/KLong75/musician-networking-app">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
 
@@ -134,20 +134,19 @@ const Projects = () => {
                         {/* Hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Crecendo Music App
+                                Weather App
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://obregonscott.github.io/WeatherDashboard1/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/ObregonScott/WeatherDashboard1">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
 
                             </div>
                         </div>
                     </div>
-
 
                 </div>
             </div>

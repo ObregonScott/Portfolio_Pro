@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import { FaBars, FaTimes} from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 // import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/vulture.png';
@@ -18,11 +19,31 @@ const Navbar = () => {
             {/*Menu*/}
 
             <ul className='hidden md:flex'>
-                <li className='text-xl'>Home</li>
-                <li className='text-xl'>About</li>
-                <li className='text-xl'>Skills</li>
-                <li className='text-xl'>Projects</li>
-                <li className='text-xl'>Contact</li>
+                <li className='text-xl'>
+                    <Link to="home" smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li className='text-xl'>
+                    <Link to="about" smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li className='text-xl'>
+                    <Link to="Skills" smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li className='text-xl'>
+                    <Link to="projects" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                </li>
+                <li className='text-xl'>
+                    <Link to="contact" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* Hamburger */}
@@ -31,11 +52,31 @@ const Navbar = () => {
             </div>
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#011307] flex flex-col justify-center items-center'} >
-                <li className='py-6 text-3xl text-[#cbe58e]'>Home</li>
-                <li className='py-6 text-3xl text-[#cbe58e]'>About</li>
-                <li className='py-6 text-3xl text-[#cbe58e]'>Skills</li>
-                <li className='py-6 text-3xl text-[#cbe58e]'>Projects</li>
-                <li className='py-6 text-3xl text-[#cbe58e]'>Contact</li>
+                <li className='py-6 text-3xl text-[#cbe58e]'>
+                    <Link to="home" smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li className='py-6 text-3xl text-[#cbe58e]'>
+                    <Link to="about" smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li className='py-6 text-3xl text-[#cbe58e]'>
+                    <Link to="skills" smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li className='py-6 text-3xl text-[#cbe58e]'>
+                    <Link to="projects" smooth={true} duration={500}>
+                        Projects
+                    </Link>
+                </li>
+                <li className='py-6 text-3xl text-[#cbe58e]'>
+                <Link to="contact" smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
         </div>
     )

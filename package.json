@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-scroll": "^1.8.7"
   },
   "scripts": {
     "start": "cd portfolio-pro && npm start"
