@@ -1,5 +1,5 @@
 {
-  "homepage": "https://obregonscott.com",
+  "homepage": "https://obregonscott.github.io/portfolio-pro",
   "name": "portfolio-pro",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm rum build",
-    "deploy": "gh-pages -b main -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
