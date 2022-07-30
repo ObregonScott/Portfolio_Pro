@@ -20,7 +20,7 @@ This project was created with [Create React App](https://github.com/facebook/cre
   - [Links](#links)
   
   ## Description
-  As a Full Stack Web developer, I want to better inform my potential employers and clients as to my skills and work experience.
+  As a Full Stack Web developer, I want to better inform my potential employers and clients as to my skills and work experience. This web app is my Professional Portfolio that displays my skills and links to my linkedin, email, resume, and github.
 
   ## User Story
 
@@ -28,7 +28,7 @@ This project was created with [Create React App](https://github.com/facebook/cre
 
   ## Instructions
 
-  for testing, please clone my repository and open the root in your terminal, then type "npm start" to run application locally
+  for testing, please clone my repository and open the root in your code editors terminal, then type "npm start" to run application locally
 
   ## Usage
 
