@@ -1,7 +1,9 @@
 
   # Portfolio Pro
-
-  # Getting Started with Create React App
+  
+  https://obregonscott.github.io/Portfolio_Pro/
+  
+  ![portfolioProSS](https://user-images.githubusercontent.com/98435396/181862381-84715a32-9174-42f1-8026-4c3282e0438d.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
   
@@ -31,6 +33,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   ## Usage
 
   Follow deployed link 
+  
+  https://obregonscott.github.io/Portfolio_Pro/
 
   ## Technology
 
